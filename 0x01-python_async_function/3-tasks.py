@@ -2,6 +2,7 @@
 """ Takes int arg, returns random delay. """
 
 import asyncio
+
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
