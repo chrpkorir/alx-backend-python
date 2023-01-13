@@ -1,3 +1,6 @@
+#!/usr/bin/env pyhthon3
+""" Takes in 2 args, returns a list of delays in ascending order. """
+
 import asyncio
 from random import random
 from typing import List

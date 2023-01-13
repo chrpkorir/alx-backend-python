@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+""" Takes ant int argument , returns a random delay"""
 import asyncio
 import random
 
