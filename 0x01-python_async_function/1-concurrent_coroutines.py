@@ -8,6 +8,7 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int = 10) -> List[float]:
+    """ Returns a list of all delays in ascending order"""
     spawn_list = []
     delayed_list = []
     for i in range(n):
